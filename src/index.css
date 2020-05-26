@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.profile {
+  background: #ccc;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 34px;
+  text-align: center;
+  margin-right: 5px;
+  border: 3px solid #999999;
+  border-radius: 100%;
+}
+.btn-time {
+  width: 100%;
+  margin-bottom: 15px !important;
+}
+.react-datepicker {
+  width: 100%;
+  font-size: 14px !important;
+}
+.react-datepicker__time-container {
+  width: 20% !important;
+}
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 14px !important;
+}
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 21% !important;
+}
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 9.2rem !important;
+  line-height: 4 !important;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box{
+  width: 100% !important;
+}
